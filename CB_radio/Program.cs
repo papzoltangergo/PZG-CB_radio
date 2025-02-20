@@ -122,6 +122,7 @@ namespace CB_radio
         }
       }
 
+
       Console.WriteLine("9. feladat: Legtöbb adást indító sofőr");
       Console.WriteLine($"\tNév: {legtobb_hivas_nev}");
       Console.WriteLine($"\tAdások száma: {legtobb_hivas} alkalom");
