@@ -29,7 +29,7 @@ namespace CB_radio
       Console.WriteLine();
       
       
-      StreamReader be = new StreamReader("cb.txt");
+      StreamReader be = new StreamReader("../../../Files/cb.txt"); //github
       List<string[]> radio = new List<string[]>();
       string line = be.ReadLine(); //fejlec
       line = be.ReadLine();
@@ -83,7 +83,7 @@ namespace CB_radio
         Console.WriteLine("\tNincs ilyen nevű sofőr!");
             
       //7
-      StreamWriter ki = new StreamWriter("cb2.txt");
+      StreamWriter ki = new StreamWriter("../../../Files/cb2.txt");
       
       ki.WriteLine("Kezdes;Nev;AdasDb");
       for (int i = 0; i < radio.Count; i++)
