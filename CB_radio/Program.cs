@@ -133,3 +133,5 @@ namespace CB_radio
     }
   }
 }
+
+//.vs* .gitignore = bin/debug folders
